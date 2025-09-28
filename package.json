@@ -1,6 +1,7 @@
 {
 	"name": "primesvelte",
 	"version": "0.0.1",
+	"description": "The Next-Gen UI Suite for Svelte",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
@@ -40,6 +41,8 @@
 		"@sveltejs/package": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^6.0.0",
 		"@types/node": "^24",
+		"@unocss/reset": "^66.5.2",
+		"bits-ui": "^2.11.4",
 		"eslint": "^9.22.0",
 		"eslint-config-prettier": "^10.0.1",
 		"eslint-plugin-svelte": "^3.0.0",
@@ -51,6 +54,7 @@
 		"svelte-check": "^4.0.0",
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.20.0",
+		"unocss": "^66.5.2",
 		"vite": "^7.0.4"
 	},
 	"keywords": [
